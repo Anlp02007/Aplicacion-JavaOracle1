@@ -10,10 +10,7 @@ import java.text.ParseException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-/**
- *
- * @author YEISON ANDRES MARIN
- */
+
 public class RegistrarVendedorForm extends javax.swing.JFrame {
 
     /**

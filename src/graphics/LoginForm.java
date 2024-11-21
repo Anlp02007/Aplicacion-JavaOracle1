@@ -7,10 +7,7 @@ package graphics;
 
 import BD.conexionOracle;
 
-/**
- *
- * @author YEISON ANDRES MARIN
- */
+
 public class LoginForm extends javax.swing.JFrame {
 
     /**

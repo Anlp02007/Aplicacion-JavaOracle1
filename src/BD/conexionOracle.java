@@ -18,10 +18,7 @@ import java.util.Date;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author YEISON ANDRES MARIN
- */
+
 public class conexionOracle {
 
     private Connection conn = null;

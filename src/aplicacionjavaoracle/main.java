@@ -12,10 +12,7 @@ import graphics.PanelVendedor;
 import graphics.RegistrarVendedorForm;
 import java.util.Date;
 
-/**
- *
- * @author YEISON ANDRES MARIN
- */
+
 public class main {
 
     /**

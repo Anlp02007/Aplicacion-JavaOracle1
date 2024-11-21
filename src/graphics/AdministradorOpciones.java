@@ -7,10 +7,7 @@ package graphics;
 
 import static BD.conexionOracle.desvincularVendedor;
 
-/**
- *
- * @author YEISON ANDRES MARIN
- */
+
 public class AdministradorOpciones extends javax.swing.JFrame {
 
     /**

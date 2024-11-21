@@ -7,10 +7,7 @@ package graphics;
 
 import java.awt.CardLayout;
 
-/**
- *
- * @author YEISON ANDRES MARIN
- */
+
 public class MenuPrincipalForm extends javax.swing.JFrame {
 
     /**
