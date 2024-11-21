@@ -7,7 +7,14 @@ package graphics;
 
 import BD.conexionOracle;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class LoginForm extends javax.swing.JFrame {
 
     /**

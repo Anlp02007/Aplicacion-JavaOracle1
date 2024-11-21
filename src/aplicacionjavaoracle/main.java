@@ -12,7 +12,14 @@ import graphics.PanelVendedor;
 import graphics.RegistrarVendedorForm;
 import java.util.Date;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class main {
 
     /**

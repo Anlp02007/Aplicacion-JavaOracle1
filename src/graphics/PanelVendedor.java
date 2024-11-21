@@ -6,11 +6,16 @@
 package graphics;
 
 import BD.conexionOracle;
+<<<<<<< HEAD
 import static BD.conexionOracle.actualizarCantidadProducto;
 import static BD.conexionOracle.actualizarEstadoDespacho;
 import static BD.conexionOracle.cargarAfiliacionesEnTabla;
 import static BD.conexionOracle.cargarAfiliadosEnTabla;
 import static BD.conexionOracle.cargarDespachosEnTabla;
+=======
+import static BD.conexionOracle.cargarAfiliacionesEnTabla;
+import static BD.conexionOracle.cargarAfiliadosEnTabla;
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 import static BD.conexionOracle.cargarInventarioEnTabla1;
 import static BD.conexionOracle.cargarProductosEnTabla;
 import static BD.conexionOracle.cargarVendedoresEnTabla;
@@ -25,7 +30,14 @@ import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class PanelVendedor extends javax.swing.JFrame {
 
     /**
@@ -131,6 +143,7 @@ public class PanelVendedor extends javax.swing.JFrame {
         jTableInventarioTabla = new javax.swing.JTable();
         jButtonlistarInventario = new javax.swing.JButton();
         jTabbedPane7 = new javax.swing.JTabbedPane();
+<<<<<<< HEAD
         jPanel7 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
@@ -154,6 +167,8 @@ public class PanelVendedor extends javax.swing.JFrame {
         jTextFieldidDespachoActualizar = new javax.swing.JTextField();
         jTextFieldidEstadoActualizar = new javax.swing.JTextField();
         jButtonactualizarEstadoDespacho = new javax.swing.JButton();
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -262,7 +277,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                                 .addComponent(jLabelIdVendedor)
                                 .addGap(84, 84, 84)
                                 .addComponent(jTextFieldIdVendedor, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
+<<<<<<< HEAD
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
+=======
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, Short.MAX_VALUE)
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                         .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 829, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
@@ -303,7 +322,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                         .addGap(50, 50, 50)
                         .addComponent(jButtonActualizar))
                     .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                 .addContainerGap(211, Short.MAX_VALUE))
+=======
+                .addContainerGap(18, Short.MAX_VALUE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
 
         jTabbedPaneActualizarInformacion.addTab("Actualizar informacion", jPanel1);
@@ -368,7 +391,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                 {null, null, null}
             },
             new String [] {
+<<<<<<< HEAD
                 "id_afiliacion", "id vendedor", "id afiliado"
+=======
+                "id_afiliacion", "id_afiliado", "id_vendedor"
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
             }
         ));
         jScrollPane3.setViewportView(jTableListarAfiliadosY);
@@ -394,6 +421,7 @@ public class PanelVendedor extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(71, 71, 71)
@@ -422,12 +450,45 @@ public class PanelVendedor extends javax.swing.JFrame {
                             .addComponent(jTextFieldnombreAfiliado, javax.swing.GroupLayout.DEFAULT_SIZE, 162, Short.MAX_VALUE))
                         .addGap(165, 165, 165)
                         .addComponent(jButtonRegistrarAfiliado)))
+=======
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 666, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGap(71, 71, 71)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jLabelRegistrarAfiliacion)
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGap(23, 23, 23)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabelvendedorId)
+                                .addComponent(jLabelafiliadoId))
+                            .addGap(228, 228, 228)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jTextFieldVendedorI)
+                                .addComponent(jTextFieldAfiliadoI, javax.swing.GroupLayout.DEFAULT_SIZE, 139, Short.MAX_VALUE))
+                            .addGap(110, 110, 110)
+                            .addComponent(jButtonRegistrarAfiliacion))
+                        .addGroup(jPanel2Layout.createSequentialGroup()
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel2Layout.createSequentialGroup()
+                                    .addContainerGap()
+                                    .addComponent(jLabelidVendedor))
+                                .addComponent(jLabelNombreAfiliado))
+                            .addGap(100, 100, 100)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(jTextFieldidVendedor)
+                                .addComponent(jTextFieldnombreAfiliado, javax.swing.GroupLayout.DEFAULT_SIZE, 162, Short.MAX_VALUE))
+                            .addGap(165, 165, 165)
+                            .addComponent(jButtonRegistrarAfiliado))))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButtonEliminar)
                         .addGap(205, 205, 205))
                     .addGroup(jPanel2Layout.createSequentialGroup()
+<<<<<<< HEAD
                         .addGap(87, 87, 87)
                         .addComponent(jLabelEliminarAfiliacion)
                         .addGap(94, 94, 94)
@@ -439,6 +500,18 @@ public class PanelVendedor extends javax.swing.JFrame {
                 .addGap(65, 65, 65)
                 .addComponent(jButtonLimpiarCampos)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+=======
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(87, 87, 87)
+                                .addComponent(jLabelEliminarAfiliacion)
+                                .addGap(94, 94, 94)
+                                .addComponent(jTextFieldEliminarAfiliacion, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createSequentialGroup()
+                                .addGap(52, 52, 52)
+                                .addComponent(jButtonLimpiarCampos)))
+                        .addContainerGap(67, Short.MAX_VALUE))))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -482,6 +555,7 @@ public class PanelVendedor extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabelafiliadoId)
                     .addComponent(jTextFieldAfiliadoI, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+<<<<<<< HEAD
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(49, 49, 49)
@@ -491,6 +565,16 @@ public class PanelVendedor extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButtonLimpiarCampos)
                         .addGap(230, 230, 230))))
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 41, Short.MAX_VALUE)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
+                        .addComponent(jButtonLimpiarCampos)
+                        .addGap(82, 82, 82))))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
 
         jTabbedPane4.addTab("Registrar afiliado", jPanel2);
@@ -605,7 +689,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                                 .addGap(332, 332, 332)
                                 .addComponent(jLabel4)
                                 .addGap(50, 50, 50)
+<<<<<<< HEAD
                                 .addComponent(jTextFieldDisponibilidad, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
+=======
+                                .addComponent(jTextFieldDisponibilidad, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel3Layout.createSequentialGroup()
@@ -637,7 +725,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                         .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(217, 217, 217)
                         .addComponent(jButtonagregarInventario)))
+<<<<<<< HEAD
                 .addContainerGap(341, Short.MAX_VALUE))
+=======
+                .addContainerGap(315, Short.MAX_VALUE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -749,7 +841,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(384, 384, 384)
                         .addComponent(jButtonlistarInventario)))
+<<<<<<< HEAD
                 .addContainerGap(524, Short.MAX_VALUE))
+=======
+                .addContainerGap(498, Short.MAX_VALUE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -758,12 +854,17 @@ public class PanelVendedor extends javax.swing.JFrame {
                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 261, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(40, 40, 40)
                 .addComponent(jButtonlistarInventario)
+<<<<<<< HEAD
                 .addContainerGap(393, Short.MAX_VALUE))
+=======
+                .addContainerGap(200, Short.MAX_VALUE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
 
         jTabbedPane6.addTab("inventario y mas", jPanel5);
 
         jTabbedPane1.addTab("inventario", jTabbedPane6);
+<<<<<<< HEAD
 
         jLabel15.setText("id despacho");
 
@@ -949,6 +1050,8 @@ public class PanelVendedor extends javax.swing.JFrame {
 
         jTabbedPane7.addTab("despachos y mas", jPanel7);
 
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         jTabbedPane1.addTab("Despachos", jTabbedPane7);
 
         jLabel10.setText("id vendedor");
@@ -1038,7 +1141,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addGap(43, 43, 43)
                         .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 982, javax.swing.GroupLayout.PREFERRED_SIZE)))
+<<<<<<< HEAD
                 .addContainerGap(245, Short.MAX_VALUE))
+=======
+                .addContainerGap(219, Short.MAX_VALUE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1095,7 +1202,11 @@ public class PanelVendedor extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jButtonVolver)
+<<<<<<< HEAD
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 689, Short.MAX_VALUE)
+=======
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 663, Short.MAX_VALUE)
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                 .addComponent(jButtonSalir)
                 .addGap(228, 228, 228))
         );
@@ -1106,7 +1217,11 @@ public class PanelVendedor extends javax.swing.JFrame {
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButtonSalir)
                     .addComponent(jButtonVolver))
+<<<<<<< HEAD
                 .addContainerGap(695, Short.MAX_VALUE))
+=======
+                .addContainerGap(502, Short.MAX_VALUE))
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         );
 
         jTabbedPane3.addTab("", jPanel6);
@@ -1123,7 +1238,11 @@ public class PanelVendedor extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 817, javax.swing.GroupLayout.PREFERRED_SIZE)
+=======
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 624, javax.swing.GroupLayout.PREFERRED_SIZE)
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -1709,6 +1828,7 @@ public class PanelVendedor extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonSalirActionPerformed
 
     private void jButtonlistarVentasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonlistarVentasActionPerformed
+<<<<<<< HEAD
 
         try {
             // Llamar al método para cargar las ventas en la tabla
@@ -1726,6 +1846,36 @@ public class PanelVendedor extends javax.swing.JFrame {
     private void jButtonVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVolverActionPerformed
 
         // Crear y mostrar la ventana de Login
+=======
+        
+        
+        try {
+        // Llamar al método para cargar las ventas en la tabla
+        cargarVentasEnTabla(jTableListarVentas);
+    } catch (Exception e) {
+        javax.swing.JOptionPane.showMessageDialog(this,
+                "Error al listar las ventas: " + e.getMessage(),
+                "Error",
+                javax.swing.JOptionPane.ERROR_MESSAGE);
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }//GEN-LAST:event_jButtonlistarVentasActionPerformed
+
+    private void jButtonVolverActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonVolverActionPerformed
+        
+        
+        
+        
+         // Crear y mostrar la ventana de Login
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         MenuPrincipalForm menu = new MenuPrincipalForm();// Crea una instancia del formulario de login
         menu.setVisible(true);  // Muestra la ventana de login
 
@@ -1734,6 +1884,7 @@ public class PanelVendedor extends javax.swing.JFrame {
         dispose();  // 
     }//GEN-LAST:event_jButtonVolverActionPerformed
 
+<<<<<<< HEAD
     private void jTextFieldestadoDespachoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextFieldestadoDespachoActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextFieldestadoDespachoActionPerformed
@@ -1865,6 +2016,8 @@ public class PanelVendedor extends javax.swing.JFrame {
 
     }//GEN-LAST:event_jButtonactualizarEstadoDespachoActionPerformed
 
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     /**
      * @param args the command line arguments
      */
@@ -1911,21 +2064,29 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JButton jButtonSalir;
     private javax.swing.JButton jButtonVerificar;
     private javax.swing.JButton jButtonVolver;
+<<<<<<< HEAD
     private javax.swing.JButton jButtonactualizarEstadoDespacho;
     private javax.swing.JButton jButtonagregarInventario;
     private javax.swing.JButton jButtoncrearDespacho;
     private javax.swing.JButton jButtonlistarDespachos;
+=======
+    private javax.swing.JButton jButtonagregarInventario;
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JButton jButtonlistarInventario;
     private javax.swing.JButton jButtonlistarVendedores;
     private javax.swing.JButton jButtonlistarVentas;
     private javax.swing.JButton jButtonregistrarVenta;
+<<<<<<< HEAD
     private javax.swing.JFormattedTextField jFormattedTextField1FechaDespacho;
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
+<<<<<<< HEAD
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
@@ -1937,6 +2098,9 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
+=======
+    private javax.swing.JLabel jLabel2;
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -1965,7 +2129,10 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
+<<<<<<< HEAD
     private javax.swing.JPanel jPanel7;
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
@@ -1973,7 +2140,10 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+<<<<<<< HEAD
     private javax.swing.JScrollPane jScrollPane8;
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JTabbedPane jTabbedPane3;
@@ -1988,7 +2158,10 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JTable jTableListarAfiliadosY;
     private javax.swing.JTable jTableListarProductos;
     private javax.swing.JTable jTableListarVentas;
+<<<<<<< HEAD
     private javax.swing.JTable jTableTablaDespachos;
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JTable jTabletableListarVendedores;
     private javax.swing.JTextField jTextFielNombre;
     private javax.swing.JTextField jTextFielcantidad;
@@ -2006,6 +2179,7 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldVendedorI;
     private javax.swing.JTextField jTextFieldcantidadd;
     private javax.swing.JTextField jTextFieldestado;
+<<<<<<< HEAD
     private javax.swing.JTextField jTextFieldestadoDespacho;
     private javax.swing.JTextField jTextFieldidDespacho;
     private javax.swing.JTextField jTextFieldidDespachoActualizar;
@@ -2015,6 +2189,11 @@ public class PanelVendedor extends javax.swing.JFrame {
     private javax.swing.JTextField jTextFieldidVendedorr;
     private javax.swing.JTextField jTextFieldidVendedort;
     private javax.swing.JTextField jTextFieldidVenta;
+=======
+    private javax.swing.JTextField jTextFieldidProducto;
+    private javax.swing.JTextField jTextFieldidVendedor;
+    private javax.swing.JTextField jTextFieldidVendedorr;
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
     private javax.swing.JTextField jTextFieldid_producto;
     private javax.swing.JTextField jTextFieldnombreAfiliado;
     // End of variables declaration//GEN-END:variables

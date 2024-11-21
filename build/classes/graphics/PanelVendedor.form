@@ -53,7 +53,11 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
               <Component id="jTabbedPane1" min="-2" pref="817" max="-2" attributes="0"/>
+=======
+              <Component id="jTabbedPane1" min="-2" pref="624" max="-2" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
               <EmptySpace max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -123,7 +127,11 @@
                                           <Component id="jTextFieldIdVendedor" min="-2" pref="192" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
+<<<<<<< HEAD
                                   <EmptySpace pref="58" max="32767" attributes="0"/>
+=======
+                                  <EmptySpace pref="32" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                                   <Component id="jScrollPane6" min="-2" pref="829" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                               </Group>
@@ -176,7 +184,11 @@
                               </Group>
                               <Component id="jScrollPane6" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
                           <EmptySpace pref="211" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="18" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -368,6 +380,7 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
+<<<<<<< HEAD
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
@@ -403,6 +416,46 @@
                                   </Group>
                                   <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
                                   <Component id="jButtonRegistrarAfiliado" min="-2" max="-2" attributes="0"/>
+=======
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jScrollPane3" min="-2" pref="666" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane1" min="-2" pref="644" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabelRegistrarAfiliacion" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelvendedorId" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelafiliadoId" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTextFieldVendedorI" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldAfiliadoI" pref="139" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="110" max="-2" attributes="0"/>
+                                      <Component id="jButtonRegistrarAfiliacion" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <EmptySpace max="-2" attributes="0"/>
+                                              <Component id="jLabelidVendedor" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabelNombreAfiliado" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="jTextFieldidVendedor" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldnombreAfiliado" pref="162" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="165" max="-2" attributes="0"/>
+                                      <Component id="jButtonRegistrarAfiliado" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                               </Group>
                           </Group>
                           <Group type="103" groupAlignment="0" attributes="0">
@@ -412,6 +465,7 @@
                                   <EmptySpace min="-2" pref="205" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" attributes="0">
+<<<<<<< HEAD
                                   <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
                                   <Component id="jLabelEliminarAfiliacion" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
@@ -427,6 +481,24 @@
                           <Component id="jButtonLimpiarCampos" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                       </Group>
+=======
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                                          <Component id="jLabelEliminarAfiliacion" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldEliminarAfiliacion" min="-2" pref="122" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                                          <Component id="jButtonLimpiarCampos" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace pref="67" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
@@ -486,6 +558,7 @@
                               <Component id="jLabelafiliadoId" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jTextFieldAfiliadoI" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
@@ -496,6 +569,17 @@
                                   <EmptySpace max="32767" attributes="0"/>
                                   <Component id="jButtonLimpiarCampos" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace min="-2" pref="230" max="-2" attributes="0"/>
+=======
+                          <EmptySpace pref="41" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jScrollPane3" min="-2" pref="110" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="jButtonLimpiarCampos" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                               </Group>
                           </Group>
                       </Group>
@@ -612,8 +696,13 @@
                         <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                           <Table columnCount="3" rowCount="4">
                             <Column editable="true" title="id_afiliacion" type="java.lang.Object"/>
+<<<<<<< HEAD
                             <Column editable="true" title="id vendedor" type="java.lang.Object"/>
                             <Column editable="true" title="id afiliado" type="java.lang.Object"/>
+=======
+                            <Column editable="true" title="id_afiliado" type="java.lang.Object"/>
+                            <Column editable="true" title="id_vendedor" type="java.lang.Object"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                           </Table>
                         </Property>
                         <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
@@ -722,7 +811,11 @@
                                           <EmptySpace min="-2" pref="332" max="-2" attributes="0"/>
                                           <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+<<<<<<< HEAD
                                           <Component id="jTextFieldDisponibilidad" min="-2" pref="142" max="-2" attributes="0"/>
+=======
+                                          <Component id="jTextFieldDisponibilidad" min="-2" pref="61" max="-2" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                                       </Group>
                                       <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="0" attributes="0">
@@ -767,7 +860,11 @@
                                   <Component id="jButtonagregarInventario" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+<<<<<<< HEAD
                           <EmptySpace pref="341" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="315" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1075,7 +1172,11 @@
                                   <Component id="jButtonlistarInventario" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+<<<<<<< HEAD
                           <EmptySpace pref="524" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="498" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1086,7 +1187,11 @@
                           <Component id="jScrollPane5" min="-2" pref="261" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                           <Component id="jButtonlistarInventario" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <EmptySpace pref="393" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="200" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1168,6 +1273,7 @@
           </Constraints>
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+<<<<<<< HEAD
           <SubComponents>
             <Container class="javax.swing.JPanel" name="jPanel7">
               <Constraints>
@@ -1483,6 +1589,8 @@
               </SubComponents>
             </Container>
           </SubComponents>
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
         </Container>
         <Container class="javax.swing.JTabbedPane" name="jTabbedPane2">
           <Constraints>
@@ -1557,7 +1665,11 @@
                                   <Component id="jScrollPane7" min="-2" pref="982" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+<<<<<<< HEAD
                           <EmptySpace pref="245" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="219" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1746,7 +1858,11 @@
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jButtonVolver" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <EmptySpace pref="689" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="663" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                           <Component id="jButtonSalir" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="228" max="-2" attributes="0"/>
                       </Group>
@@ -1760,7 +1876,11 @@
                               <Component id="jButtonSalir" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="jButtonVolver" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
                           <EmptySpace pref="695" max="32767" attributes="0"/>
+=======
+                          <EmptySpace pref="502" max="32767" attributes="0"/>
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
                       </Group>
                   </Group>
                 </DimensionLayout>

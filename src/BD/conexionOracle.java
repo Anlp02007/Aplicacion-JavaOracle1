@@ -18,7 +18,14 @@ import java.util.Date;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class conexionOracle {
 
     private Connection conn = null;
@@ -989,6 +996,7 @@ public class conexionOracle {
         }
     }
 
+<<<<<<< HEAD
     public void crearDespacho(int idDespacho, int idVenta, int idVendedor, java.sql.Date fechaDespacho, String estado) throws SQLException {
         CallableStatement cs = null;
 
@@ -1127,4 +1135,6 @@ public class conexionOracle {
         }
     }
 
+=======
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 }

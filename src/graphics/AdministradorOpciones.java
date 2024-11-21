@@ -7,7 +7,14 @@ package graphics;
 
 import static BD.conexionOracle.desvincularVendedor;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class AdministradorOpciones extends javax.swing.JFrame {
 
     /**

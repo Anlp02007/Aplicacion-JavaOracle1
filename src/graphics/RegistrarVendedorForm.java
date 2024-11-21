@@ -10,7 +10,14 @@ import java.text.ParseException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class RegistrarVendedorForm extends javax.swing.JFrame {
 
     /**

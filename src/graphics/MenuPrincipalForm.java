@@ -7,7 +7,14 @@ package graphics;
 
 import java.awt.CardLayout;
 
+<<<<<<< HEAD
 
+=======
+/**
+ *
+ * @author YEISON ANDRES MARIN
+ */
+>>>>>>> 5a9f9df (Primer commit: subir aplicación Java con Oracle)
 public class MenuPrincipalForm extends javax.swing.JFrame {
 
     /**
